@@ -1,0 +1,47 @@
+
+body {
+background: pink;
+}
+
+.container{
+padding: 20px;
+width: 300px;
+margin: 0 auto;
+background: white;
+}
+
+form {
+display: inline-block;
+}
+
+input{
+  display: inline-block;
+  background-color: white;
+  color: black;
+  text-align:left;
+  font-size: 15px;
+  margin-top:2px;
+  padding: 10px;
+}
+
+#button{
+display: inline-block;
+background-color: pink;
+color: black;
+text-align:center;
+margin-top:2px;
+padding: 10px;
+}
+
+#button:hover{
+cursor: pointer;
+}
+
+
+.strike{
+  text-decoration: line-through;
+}
+
+li:hover{
+  cursor: pointer;
+ }

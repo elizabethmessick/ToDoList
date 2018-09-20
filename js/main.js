@@ -5,7 +5,10 @@ $(document).ready(
         $('#button').click(
             function(){
                 var toAdd = $('input[name=ListItem]').val();
-                 $('ol').append('<li>' + toAdd + '</li>');
+                 $('ol').append('<li>' + toAdd + '</li>')
+                 $('input').val('');
+                 //$('form').reset(); resets the entire form 
+                 ;
             });
     
       //this crosses out the new list items 
@@ -13,10 +16,7 @@ $(document).ready(
         $(this).toggleClass('strike');    
       });
 
-      //this deletes the previous to do list item from the form
-      $('input').focus(function() {
-        $(this).val('');
-      });
+      
       
       
     }
